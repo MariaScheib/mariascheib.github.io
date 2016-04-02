@@ -1,0 +1,463 @@
+/*!
+ * Start Bootstrap - Small Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body{
+padding:0px;
+margin:0px;
+/*background-image:url('testgrid.png');
+*/background-opacity: 0.3;
+background-repeat:repeat;
+background-size:contain;
+background-position:center;
+
+
+}
+
+.logo {
+    display: block;
+    height: auto;
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+.hidden-sm {
+     display: inline; 
+    }}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+
+.navbar-fixed-top .nav {
+    padding: 10px;
+    /*padding-top: 25px;*/
+/*    float: right;
+*/    font-weight: 400px;
+    font-size: 18px;
+    background-color : transparent;
+
+}
+.navbar-inverse {
+    background-color: transparent; 
+    border-color: transparent; 
+}
+
+
+.images{
+    padding: -80px;
+    margin: 0px;
+}
+
+.types{
+    padding-top: 60px;
+    float: left;
+    font-size: 11px;
+    display: block;
+    background-color : transparent;
+
+}
+
+.img-responsive{
+    height:;
+}
+
+
+
+.navbar .navbar-brand {
+    padding: 0 15px;
+}
+
+.index{
+    font-size: 11px;
+    display: block;
+    margin: -3px;
+    padding-left: 20px;
+    font-weight: 400;
+    background-color : transparent;
+
+}
+/*
+.bigpicture{
+    padding-top: px;
+}*/
+
+.nav .navbar-nav{
+    color: #333;
+/*    float: right;
+*/    padding-top: 40px;
+/*    padding-left: 150px;*/
+    background-color : transparent;
+
+}
+
+ul{
+    color: #333;
+    font-size: 17px;
+    font-weight: 800;
+    font-color: black;
+    padding-left: 60px;
+}
+.video{
+  height: 630;
+  width:;  
+}
+.logo
+{
+    float:left;
+    padding: 0px 0px 0px -70px;
+    background: center center no-repeat;
+/*    background-size:100px 150px;
+*/}
+
+
+footer {
+    padding: 30px 0;
+}
+
+h1{
+    color: #333;
+    padding-left: 60px;
+    padding-right: 30px;
+    padding-top: -40px;
+    font-weight: 700;
+    font-size: 50px;
+    font-color: black;
+
+}
+
+
+.navbar-header{
+    padding-bottom: 50px;
+    padding-left: 115px;
+    background-color : transparent;
+
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 0px; 
+    color: black;
+
+}
+
+h3{
+    font-size: 15px;
+    margin-top: -10px;
+    color: #555;
+}
+
+.body{
+    margin-top:5px;
+/*    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+}
+
+.index .col a.fade {
+    color: #e8e8e8;
+    text-decoration: line-through;
+}
+
+
+.jeff {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+.jeff > [class*='col-'] {
+     display: flex;
+     flex-direction: column;
+}
+
+
+.navbar-fixed-top .navbar-brand {
+    padding: 15px 0;
+}
+@media (min-width: 700px){
+.col-sm-3 {
+    width: 15%;
+}}
+
+@media (min-width: 1200px){
+.container {
+    width: 1250px;
+}}
+
+@media (min-width: 50px){
+    h1{
+        font-size: 15px;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .navbar-header {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+    background-color: transparent;
+    .navbar {
+    /* position: relative; */
+    min-height: 50px;
+    margin-bottom: 0px; 
+    border: 1px solid transparent;
+}}
+
+
+
+@media (min-width: 200px){
+    h1{
+        font-size: 18px;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .types{
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+    .navbar-header {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+    background-color: transparent;
+    .navbar {
+    /* position: relative; */
+    min-height: 50px;
+    margin-bottom: 0px; 
+    border: 1px solid transparent;
+}}
+ 
+@media (min-width: 320px) {
+    h1{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+
+    .navbar-header {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-top: 0px;
+    background-color: transparent;
+    .navbar {
+     position: relative; 
+    min-height: 50px;
+    margin-bottom: 0px; 
+    border: 1px solid transparent;
+}}
+ 
+
+@media (min-width: 500px){
+    h1{
+        font-size: 35px;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+}
+
+
+@media (min-width: 600px){
+    h1{
+        font-size: 35px;
+        padding-left: 0px;
+        color: black;
+
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+}
+
+
+@media (min-width: 800px){
+    h1{
+        font-size: 30px;
+        padding-left: 0px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul .nav .navbar-nav{
+        padding-left: 100px;
+    } 
+}
+
+
+@media (min-width: 1000px){
+    h1{
+        font-size: 40px;
+        padding-left: 80px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+    }
+}
+
+
+    @media (min-width: 1200px){
+    h1{
+        font-size: 40px;
+        padding-left: 150px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+    }
+        ul .nav .navbar-nav{
+        padding-left: 100px;
+    } 
+}
+
+      @media (min-width: 1400px){
+    h1{
+        font-size: 40px;
+        padding-left: 200px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+}
+
+    @media (min-width: 1500px){
+    h1{
+        font-size: 40px;
+        padding-left: 250px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+    ul .nav .navbar-nav{
+        padding-left: 200px;
+    } 
+}
+   @media (min-width: 1600px){
+    h1{
+        font-size: 40px;
+        padding-left: 300px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+        .logo {
+    display: block;
+    height: auto;
+    max-width: 1700px;
+}
+}
+
+   @media (min-width: 1700px){
+    h1{
+        font-size: 40px;
+        padding-left: 350px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+        .logo {
+    display: block;
+    height: auto;
+    max-width: 1700px;
+}
+}
+
+       @media (min-width: 1900px){
+    h1{
+        font-size: 40px;
+        padding-left: 420px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+        .logo {
+    display: block;
+    height: auto;
+    max-width: 1700px;
+}
+}
+
+   @media (min-width: 2000px){
+    h1{
+        font-size: 40px;
+        padding-left: 450px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+        .logo {
+    display: block;
+    height: auto;
+    max-width: 1700px;
+}
+}
+
+   @media (min-width: 2200px){
+    h1{
+        font-size: 40px;
+        padding-left: 550px;
+    }
+    h2{
+        padding-top: 10px;
+        font-size: 23px;
+    }
+    ul{
+        color: #333;
+    }
+    .logo {
+    display: block;
+    height: auto;
+    max-width: 1700px;
+}
+}
